@@ -45,17 +45,6 @@ Model artifacts used:
 
 ---
 
-## 🗂️ Project Structure
-
-ann-classification-churn/
-├── app.py                  # Main Streamlit application
-├── models/                 # Folder for saved model and encoders
-│   ├── model.h5            # Trained ANN model
-│   ├── label_enc.pkl       # LabelEncoder for Gender
-│   ├── scaler.pkl          # StandardScaler for features
-│   └── ohe.pkl             # OneHotEncoder for Geography
-├── requirements.txt        # Python dependencies for the app
-├── runtime.txt             # Python version specification for Streamlit Cloud
-└── README.md               # Project documentation (this file)
+<pre> ### 📁 Project Structure ```text ann-classification-churn/ ├── app.py # Main Streamlit application ├── models/ # Folder for saved model and encoders │ ├── model.h5 # Trained ANN model │ ├── label_enc.pkl # LabelEncoder for Gender │ ├── scaler.pkl # StandardScaler for features │ └── ohe.pkl # OneHotEncoder for Geography ├── requirements.txt # Python dependencies for the app ├── runtime.txt # Python version specification for Streamlit Cloud └── README.md # Project documentation (this file) ``` </pre>
 
 
