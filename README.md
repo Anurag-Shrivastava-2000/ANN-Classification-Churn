@@ -47,3 +47,15 @@ Model artifacts used:
 
 ## 🗂️ Project Structure
 
+ann-classification-churn/
+├── app.py # Main Streamlit app
+├── models/
+│ ├── model.h5
+│ ├── label_enc.pkl
+│ ├── scaler.pkl
+│ └── ohe.pkl
+├── requirements.txt
+├── runtime.txt
+└── README.md # You're here!
+
+
