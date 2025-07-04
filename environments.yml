@@ -1,0 +1,14 @@
+name: ann-classification-churn
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - streamlit
+      - tensorflow
+      - scikit-learn
+      - pandas
+      - numpy
+      - matplotlib
